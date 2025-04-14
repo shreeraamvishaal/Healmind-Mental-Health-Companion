@@ -109,7 +109,7 @@ const CrisisSupport = () => {
   };
 
   const fetchNearbyCenters = async (latitude, longitude) => {
-    const apiKey = "7825ad5bb35742a78ffbb362437b6abf";
+    const apiKey = "YOUR-OpenCage-Geocoder-API-key";
     const radius = 5000; // in meters
     const categories = "healthcare.hospital"; // only hospitals
   
